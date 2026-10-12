@@ -23,6 +23,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.world.phys.BlockHitResult;
 import com.aetherdragon.entity.RebornMobEntity;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -31,10 +33,10 @@ public class SpecialSpawnerBlock extends Block {
     private static final BooleanProperty POWERED = BlockStateProperties.POWERED;
     private final String action;
 
-    public SpecialSpawnerBlock(String action) {
+    public SpecialSpawnerBlock(String action, ResourceKey<Block> id) {
         super(action.equals("lamp")
-                ? BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).strength(3.0F, 3600000.0F).sound(SoundType.METAL).lightLevel(state -> 4).noOcclusion()
-                : BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(3.0F, 3600000.0F).sound(SoundType.METAL).lightLevel(state -> 4));
+                ? BlockBehaviour.Properties.of().setId(id).mapColor(MapColor.COLOR_PURPLE).strength(3.0F, 3600000.0F).sound(SoundType.METAL).lightLevel(state -> 4).noOcclusion()
+                : BlockBehaviour.Properties.of().setId(id).mapColor(MapColor.METAL).strength(3.0F, 3600000.0F).sound(SoundType.METAL).lightLevel(state -> 4));
         this.action = action;
         this.registerDefaultState(this.stateDefinition.any().setValue(POWERED, false));
     }

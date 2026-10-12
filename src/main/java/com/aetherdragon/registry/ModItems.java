@@ -2,6 +2,8 @@ package com.aetherdragon.registry;
 
 import com.aetherdragon.AetherDragon;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SpawnEggItem;
@@ -16,9 +18,13 @@ public final class ModItems {
 
     static {
         for (Map.Entry<String, DeferredHolder<net.minecraft.world.level.block.Block, net.minecraft.world.level.block.Block>> entry : ModBlocks.ALL.entrySet()) {
-            ALL.put(entry.getKey(), ITEMS.register(entry.getKey(), () -> new BlockItem(entry.getValue().get(), new Item.Properties())));
+            ALL.put(entry.getKey(), ITEMS.register(entry.getKey(), () -> new BlockItem(entry.getValue().get(), new Item.Properties().setId(itemKey(entry.getKey())))));
         }
-        ALL.put("aetherdragon_spawn_egg", ITEMS.register("aetherdragon_spawn_egg", () -> new SpawnEggItem(new Item.Properties().spawnEgg(ModEntities.MOBS.get("aetherdragon").get()))));
+        ALL.put("aetherdragon_spawn_egg", ITEMS.register("aetherdragon_spawn_egg", () -> new SpawnEggItem(new Item.Properties().setId(itemKey("aetherdragon_spawn_egg")).spawnEgg(ModEntities.MOBS.get("aetherdragon").get()))));
+    }
+
+    private static ResourceKey<Item> itemKey(String id) {
+        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(AetherDragon.MOD_ID, id));
     }
 
     private ModItems() {

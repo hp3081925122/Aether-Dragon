@@ -6,6 +6,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -26,11 +28,15 @@ public final class ModBlocks {
         };
         for (String id : ids) {
             ALL.put(id, BLOCKS.register(id, () -> isSpecialSpawner(id)
-                    ? new SpecialSpawnerBlock(getSpawnerAction(id))
+                    ? new SpecialSpawnerBlock(getSpawnerAction(id), blockKey(id))
                     : id.equals("aureateleaves") || id.equals("labyrinthleaves")
-                    ? new Block(BlockBehaviour.Properties.of().mapColor(mapColor(id)).strength(1.5F).noOcclusion())
-                    : new Block(BlockBehaviour.Properties.of().mapColor(mapColor(id)).strength(1.5F))));
+                    ? new Block(BlockBehaviour.Properties.of().setId(blockKey(id)).mapColor(mapColor(id)).strength(1.5F).noOcclusion())
+                    : new Block(BlockBehaviour.Properties.of().setId(blockKey(id)).mapColor(mapColor(id)).strength(1.5F))));
         }
+    }
+
+    private static ResourceKey<Block> blockKey(String id) {
+        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(AetherDragon.MOD_ID, id));
     }
 
     private static MapColor mapColor(String id) {
