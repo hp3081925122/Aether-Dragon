@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/forgotten_dirt",
+    "up": "aether_dragon:block/forgotten_dirt",
+    "north": "aether_dragon:block/forgotten_dirt",
+    "east": "aether_dragon:block/forgotten_dirt",
+    "south": "aether_dragon:block/forgotten_dirt",
+    "west": "aether_dragon:block/forgotten_dirt",
+    "particle": "aether_dragon:block/forgotten_dirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aether_dragon:block/crystalitecapstone",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aether_dragon:block/crystalitecapstone"
+    },
+    "axis=z": {
+      "model": "aether_dragon:block/crystalitecapstone",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "aether_dragon:block/lamp"
+    },
+    "powered=true": {
+      "model": "aether_dragon:block/lamp"
+    }
+  }
+}

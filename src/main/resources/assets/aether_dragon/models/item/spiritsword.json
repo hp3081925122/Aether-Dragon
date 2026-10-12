@@ -1,0 +1,15 @@
+{
+  "parent": "aether_dragon:custom/spiritsword",
+  "textures": {
+    "0": "aether_dragon:block/mystic",
+    "particle": "aether_dragon:item/mystic"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "aether_dragon:item/spiritsword_0"
+    }
+  ]
+}

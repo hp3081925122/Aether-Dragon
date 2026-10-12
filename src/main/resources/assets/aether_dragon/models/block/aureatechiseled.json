@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/aureate_chiseled",
+    "up": "aether_dragon:block/aureate_chiseled",
+    "north": "aether_dragon:block/aureate_chiseled",
+    "east": "aether_dragon:block/aureate_chiseled",
+    "south": "aether_dragon:block/aureate_chiseled",
+    "west": "aether_dragon:block/aureate_chiseled",
+    "particle": "aether_dragon:block/aureate_chiseled"
+  },
+  "render_type": "solid"
+}

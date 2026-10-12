@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/mutated_liveroots",
+    "up": "aether_dragon:block/mutated_liveroots",
+    "north": "aether_dragon:block/mutated_liveroots",
+    "east": "aether_dragon:block/mutated_liveroots",
+    "south": "aether_dragon:block/mutated_liveroots",
+    "west": "aether_dragon:block/mutated_liveroots",
+    "particle": "aether_dragon:block/mutated_liveroots"
+  },
+  "render_type": "solid"
+}

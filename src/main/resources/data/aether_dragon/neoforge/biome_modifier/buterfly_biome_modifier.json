@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#aether_dragon:aether_biomes",
+  "spawners": {
+    "type": "aether_dragon:buterfly",
+    "weight": 24,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

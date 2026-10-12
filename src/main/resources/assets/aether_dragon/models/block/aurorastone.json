@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/aurora_stone",
+    "up": "aether_dragon:block/aurora_stone",
+    "north": "aether_dragon:block/aurora_stone",
+    "east": "aether_dragon:block/aurora_stone",
+    "south": "aether_dragon:block/aurora_stone",
+    "west": "aether_dragon:block/aurora_stone",
+    "particle": "aether_dragon:block/aurora_stone"
+  },
+  "render_type": "solid"
+}

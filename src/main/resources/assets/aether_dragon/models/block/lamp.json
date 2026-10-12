@@ -1,0 +1,9 @@
+{
+  "parent": "aether_dragon:custom/mystic_lamp.geo_-_converted",
+  "textures": {
+    "all": "aether_dragon:block/mystic_lamp",
+    "particle": "aether_dragon:block/mystic_lamp",
+    "0": "aether_dragon:block/mystic_lamp"
+  },
+  "render_type": "cutout_mipped"
+}

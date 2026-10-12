@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/aureate_script",
+    "up": "aether_dragon:block/aureate_script",
+    "north": "aether_dragon:block/aureate_script",
+    "east": "aether_dragon:block/aureate_script",
+    "south": "aether_dragon:block/aureate_script",
+    "west": "aether_dragon:block/aureate_script",
+    "particle": "aether_dragon:block/aureate_script"
+  },
+  "render_type": "solid"
+}

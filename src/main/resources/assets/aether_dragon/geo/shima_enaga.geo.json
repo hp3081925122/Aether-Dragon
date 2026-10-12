@@ -1,0 +1,99 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.shima_enaga",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 4, -1]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0.4, 4, -1]
+				},
+				{
+					"name": "bigbody",
+					"parent": "body",
+					"pivot": [0.5, 3, -1],
+					"cubes": [
+						{"origin": [-7, 3, -8], "size": [15, 15, 15], "uv": [0, 32]},
+						{"origin": [-7.25, 18, -3.25], "size": [15, 6, 0], "uv": [34, 0]}
+					]
+				},
+				{
+					"name": "nose",
+					"parent": "bigbody",
+					"pivot": [0.5, 8.5, -8],
+					"cubes": [
+						{"origin": [0, 8, -10], "size": [1, 1, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "eyes",
+					"parent": "bigbody",
+					"pivot": [0.5, 9, -7.5],
+					"cubes": [
+						{"origin": [-4, 9, -8], "size": [9, 1, 1], "inflate": 0.01, "uv": [36, 22]}
+					]
+				},
+				{
+					"name": "wing1",
+					"parent": "body",
+					"pivot": [8, 9.75, -0.5],
+					"cubes": [
+						{"origin": [7.25, 4.75, -4], "size": [1, 5, 7], "pivot": [8.25, 9, -0.5], "rotation": [0, 0, -22.5], "uv": [10, 18]}
+					]
+				},
+				{
+					"name": "wing2",
+					"parent": "body",
+					"pivot": [-7, 9.75, -0.5],
+					"cubes": [
+						{"origin": [-7.25, 4.75, -4], "size": [1, 5, 7], "pivot": [-7.25, 9, -0.5], "rotation": [0, 0, 22.5], "uv": [10, 18], "mirror": true}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "root",
+					"pivot": [2.5, 4, -1],
+					"cubes": [
+						{"origin": [2, 0, -1], "size": [1, 4, 1], "uv": [0, 3]}
+					]
+				},
+				{
+					"name": "foot1",
+					"parent": "leg1",
+					"pivot": [2.5, 0, -0.5],
+					"cubes": [
+						{"origin": [0, 0, -5], "size": [5, 0, 7], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "root",
+					"pivot": [-1.5, 4, -1],
+					"cubes": [
+						{"origin": [-2, 0, -1], "size": [1, 4, 1], "uv": [0, 3], "mirror": true}
+					]
+				},
+				{
+					"name": "foot2",
+					"parent": "leg2",
+					"pivot": [-1.5, 0, -0.5],
+					"cubes": [
+						{"origin": [-4, 0, -5], "size": [5, 0, 7], "uv": [0, 18], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

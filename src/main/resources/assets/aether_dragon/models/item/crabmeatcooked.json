@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "aether_dragon:item/crab_meat_cooked"
+  }
+}

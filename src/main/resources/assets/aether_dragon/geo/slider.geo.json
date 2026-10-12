@@ -1,0 +1,274 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.slider",
+        "texture_width": 280,
+        "texture_height": 280,
+        "visible_bounds_width": 21,
+        "visible_bounds_height": 12,
+        "visible_bounds_offset": [
+          0,
+          -3,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "locators": {
+            "digspot": [
+              0,
+              2,
+              -11
+            ]
+          }
+        },
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "bodyMid",
+          "pivot": [
+            0,
+            13.5,
+            56
+          ],
+          "parent": "root"
+        },
+        {
+          "name": "tail1",
+          "parent": "bodyMid",
+          "pivot": [
+            0,
+            14.5,
+            70.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13.5,
+                0,
+                70.5
+              ],
+              "size": [
+                27,
+                29,
+                29
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tail2",
+          "parent": "tail1",
+          "pivot": [
+            0,
+            13.5,
+            99.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -11.5,
+                0,
+                99.5
+              ],
+              "size": [
+                23,
+                27,
+                29
+              ],
+              "uv": [
+                83,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tail3",
+          "parent": "tail2",
+          "pivot": [
+            0,
+            9,
+            128.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -8,
+                0,
+                128.5
+              ],
+              "size": [
+                16,
+                18,
+                23
+              ],
+              "uv": [
+                0,
+                58
+              ]
+            }
+          ],
+          "locators": {
+            "tail": [
+              0,
+              0,
+              117
+            ]
+          }
+        },
+        {
+          "name": "bodyFront1",
+          "parent": "bodyMid",
+          "pivot": [
+            0,
+            14.5,
+            41.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -13.5,
+                0,
+                12.5
+              ],
+              "size": [
+                27,
+                29,
+                29
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "parent": "bodyFront1",
+          "pivot": [
+            0,
+            14.5,
+            12.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -11.5,
+                10,
+                -14.5
+              ],
+              "size": [
+                23,
+                19,
+                27
+              ],
+              "uv": [
+                112,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jaw",
+          "parent": "head",
+          "pivot": [
+            0,
+            9.9,
+            7.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -12.5,
+                -0.1,
+                -17.5
+              ],
+              "size": [
+                25,
+                15,
+                30
+              ],
+              "uv": [
+                157,
+                83
+              ]
+            },
+            {
+              "origin": [
+                -11.5,
+                0,
+                -14.5
+              ],
+              "size": [
+                23,
+                10,
+                27
+              ],
+              "uv": [
+                84,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mouth",
+          "parent": "head",
+          "pivot": [
+            0,
+            10,
+            -17
+          ]
+        },
+        {
+          "name": "bone",
+          "parent": "bodyMid",
+          "pivot": [
+            0,
+            14,
+            56
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -11.5,
+                0,
+                41.5
+              ],
+              "size": [
+                23,
+                27,
+                29
+              ],
+              "uv": [
+                83,
+                57
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

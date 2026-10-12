@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "aether_dragon:block/saltspawner"
+    },
+    "powered=true": {
+      "model": "aether_dragon:block/saltspawner"
+    }
+  }
+}

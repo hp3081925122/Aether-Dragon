@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.crystalite_golem",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"l4": [0, 5, -51],
+						"l2": [0, 5, 0],
+						"l3": [0, 0, 0],
+						"body": [0, 5, -22]
+					}
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 17.6, 1.2],
+					"cubes": [
+						{"origin": [-20, 28, -7], "size": [40, 32, 20], "uv": [0, 0]},
+						{"origin": [-11, 20, -4], "size": [22, 8, 14], "uv": [62, 52]}
+					],
+					"locators": {
+						"l1": [0, 64, 0]
+					}
+				},
+				{
+					"name": "arm_left",
+					"parent": "body",
+					"pivot": [20, 51, 3],
+					"cubes": [
+						{"origin": [20.075, 34, -3], "size": [14, 24, 12], "uv": [128, 66]},
+						{"origin": [20, 52, -8], "size": [20, 17, 22], "uv": [0, 52]},
+						{"origin": [23, 12, -3], "size": [13, 22, 12], "uv": [162, 0]},
+						{"origin": [22, 21, -4], "size": [15, 4, 14], "uv": [120, 48]}
+					]
+				},
+				{
+					"name": "arm_right",
+					"parent": "body",
+					"pivot": [-20, 51, 3],
+					"cubes": [
+						{"origin": [-34.025, 34, -3], "size": [14, 24, 12], "uv": [128, 102], "mirror": true},
+						{"origin": [-40, 52, -8], "size": [20, 17, 22], "uv": [0, 52], "mirror": true},
+						{"origin": [-37, 21, -4], "size": [15, 4, 14], "uv": [120, 48], "mirror": true},
+						{"origin": [-36, 12, -3], "size": [13, 22, 12], "uv": [162, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 52, -7],
+					"cubes": [
+						{"origin": [-8, 43, -19], "size": [16, 16, 12], "uv": [72, 79]},
+						{"origin": [-9, 42, -10.025], "size": [18, 18, 3], "uv": [120, 0]}
+					],
+					"locators": {
+						"roar": [0, 46.45, -17.25]
+					}
+				},
+				{
+					"name": "leg_left",
+					"parent": "root",
+					"pivot": [14, 19, 3],
+					"cubes": [
+						{"origin": [8, 0, -3], "size": [12, 20, 12], "uv": [178, 34]}
+					]
+				},
+				{
+					"name": "leg_right",
+					"parent": "root",
+					"pivot": [-14, 19, 3],
+					"cubes": [
+						{"origin": [-20, 0, -3], "size": [12, 20, 12], "uv": [178, 34], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

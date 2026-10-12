@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/block_of_salt",
+    "up": "aether_dragon:block/block_of_salt",
+    "north": "aether_dragon:block/layered_saltstone_side",
+    "east": "aether_dragon:block/layered_saltstone_side",
+    "south": "aether_dragon:block/layered_saltstone_side",
+    "west": "aether_dragon:block/layered_saltstone_side",
+    "particle": "aether_dragon:block/block_of_salt"
+  },
+  "render_type": "solid"
+}

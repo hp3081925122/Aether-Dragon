@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/crystalite_lightstone_lit",
+    "up": "aether_dragon:block/crystalite_lightstone_lit",
+    "north": "aether_dragon:block/crystalite_lightstone_lit",
+    "east": "aether_dragon:block/crystalite_lightstone_lit",
+    "south": "aether_dragon:block/crystalite_lightstone_lit",
+    "west": "aether_dragon:block/crystalite_lightstone_lit",
+    "particle": "aether_dragon:block/crystalite_lightstone_lit"
+  },
+  "render_type": "solid"
+}
