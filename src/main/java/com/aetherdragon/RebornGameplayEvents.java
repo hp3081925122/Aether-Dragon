@@ -44,7 +44,7 @@ public final class RebornGameplayEvents {
 
     @SubscribeEvent
     public static void onEntityJoin(EntityJoinLevelEvent event) {
-        if (event.getLevel().isClientSide || !(event.getEntity() instanceof RebornMobEntity entity)) {
+        if (event.getLevel().isClientSide() || !(event.getEntity() instanceof RebornMobEntity entity)) {
             return;
         }
         Consumer<RebornMobEntity> handler = JOIN_HANDLERS.get(entity.getIdPath());
@@ -56,7 +56,7 @@ public final class RebornGameplayEvents {
     @SubscribeEvent
     public static void onPlayerTick(PlayerTickEvent.Post event) {
         Player player = event.getEntity();
-        if (player.level().isClientSide || player.tickCount % 20 != 0
+        if (player.level().isClientSide() || player.tickCount % 20 != 0
                 || !(player.level() instanceof ServerLevel server)) {
             return;
         }
@@ -82,7 +82,7 @@ public final class RebornGameplayEvents {
 
     @SubscribeEvent
     public static void onLivingHurt(LivingIncomingDamageEvent event) {
-        if (!(event.getEntity() instanceof RebornMobEntity entity) || entity.level().isClientSide) {
+        if (!(event.getEntity() instanceof RebornMobEntity entity) || entity.level().isClientSide()) {
             return;
         }
         Consumer<RebornMobEntity> handler = HURT_HANDLERS.get(entity.getIdPath());
@@ -92,7 +92,7 @@ public final class RebornGameplayEvents {
     }
 
     private static void handleGolemJoin(RebornMobEntity entity) {
-        if (!entity.getPersistentData().getBoolean("reborn_golem_initialized")) {
+        if (!entity.getPersistentData().getBooleanOr("reborn_golem_initialized", false)) {
             entity.getPersistentData().putBoolean("reborn_golem_initialized", true);
             entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 10, false, false));
             entity.invulnerableTime = 100;
@@ -101,7 +101,7 @@ public final class RebornGameplayEvents {
     }
 
     private static void handleMinionJoin(RebornMobEntity entity) {
-        if (!entity.getPersistentData().getBoolean("reborn_minion_initialized") && entity.level() instanceof ServerLevel server) {
+        if (!entity.getPersistentData().getBooleanOr("reborn_minion_initialized", false) && entity.level() instanceof ServerLevel server) {
             entity.getPersistentData().putBoolean("reborn_minion_initialized", true);
             entity.triggerAction("spawn");
             sendParticles(server, ModParticles.RUNESEFFECT.get(), entity, 6);
@@ -112,9 +112,6 @@ public final class RebornGameplayEvents {
         if (!entity.isDragonPhaseTwo() || !(entity.level() instanceof ServerLevel server)) {
             return;
         }
-        drop(server, entity, ModItems.ALL.get("shaday_helmet").get());
-        drop(server, entity, ModItems.ALL.get("shaday_chestplate").get());
-        drop(server, entity, ModItems.ALL.get("shaday_leggings").get());
         explode(server, entity, Level.ExplosionInteraction.NONE);
         playVictory(server, entity);
         sendParticles(server, ParticleTypes.EXPLOSION, entity, 7);

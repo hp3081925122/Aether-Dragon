@@ -1,7 +1,6 @@
 package com.aetherdragon.registry;
 
 import com.aetherdragon.AetherDragon;
-import com.aetherdragon.block.CrystaliteCapstoneBlock;
 import com.aetherdragon.block.SpecialSpawnerBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
@@ -26,9 +25,7 @@ public final class ModBlocks {
                 "aurorastone", "dragonspawner"
         };
         for (String id : ids) {
-            ALL.put(id, BLOCKS.register(id, () -> id.equals("crystalitecapstone")
-                    ? new CrystaliteCapstoneBlock()
-                    : isSpecialSpawner(id)
+            ALL.put(id, BLOCKS.register(id, () -> isSpecialSpawner(id)
                     ? new SpecialSpawnerBlock(getSpawnerAction(id))
                     : id.equals("aureateleaves") || id.equals("labyrinthleaves")
                     ? new Block(BlockBehaviour.Properties.of().mapColor(mapColor(id)).strength(1.5F).noOcclusion())

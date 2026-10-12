@@ -1,7 +1,7 @@
 package com.aetherdragon.registry;
 
 import com.aetherdragon.AetherDragon;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.level.Level;
@@ -45,7 +45,7 @@ public final class ModSounds {
                 "shulker_beam_loop", "shulker_vine", "shulker_vanish", "shulker_impact", "shulker_pulse", "shulker_burst", "shulker_enrage"
         };
         for (String id : ids) {
-            ALL.put(id, SOUNDS.register(id, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(AetherDragon.MOD_ID, id))));
+            ALL.put(id, SOUNDS.register(id, () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath(AetherDragon.MOD_ID, id))));
         }
     }
 

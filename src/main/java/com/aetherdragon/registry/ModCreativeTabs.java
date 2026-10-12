@@ -42,8 +42,8 @@ public final class ModCreativeTabs {
         if (!ModList.get().isLoaded(MAIN_MOD_ID)) {
             return;
         }
-        String path = event.getTabKey().location().getPath();
-        String namespace = event.getTabKey().location().getNamespace();
+        String path = event.getTabKey().identifier().getPath();
+        String namespace = event.getTabKey().identifier().getNamespace();
         if (!MAIN_MOD_ID.equals(namespace) || (!"aetherbossitem".equals(path) && !"aetherboss".equals(path))) {
             return;
         }
