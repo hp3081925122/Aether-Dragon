@@ -1,5 +1,8 @@
 package com.aetherdragon.entity;
 
+import com.aetherdragon.DragonCombatConfig;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+
 import com.aetherdragon.registry.ModEntities;
 import com.aetherdragon.registry.ModParticles;
 import com.aetherdragon.registry.ModSounds;
@@ -50,6 +53,7 @@ public class DragonSkillEntity extends Entity {
     private static final EntityDataAccessor<Float> GROUND_Y = SynchedEntityData.defineId(DragonSkillEntity.class, EntityDataSerializers.FLOAT);
     private static final EntityDataAccessor<Integer> DELAY = SynchedEntityData.defineId(DragonSkillEntity.class, EntityDataSerializers.INT);
     private int ownerId = -1;
+    private double launchAttackDamage;
     private int targetId = -1;
 
     public DragonSkillEntity(EntityType<? extends DragonSkillEntity> type, Level level) {
@@ -67,6 +71,7 @@ public class DragonSkillEntity extends Entity {
         entity.entityData.set(GROUND_Y, (float) groundY);
         entity.entityData.set(DELAY, delay);
         entity.ownerId = owner.getId();
+        entity.launchAttackDamage = owner.getAttributeValue(Attributes.ATTACK_DAMAGE);
         if (target != null) {
             entity.targetId = target.getId();
         }
@@ -126,7 +131,7 @@ public class DragonSkillEntity extends Entity {
             }
             EntityHitResult hit = ProjectileUtil.getEntityHitResult(level(), this, start, end, getBoundingBox().expandTowards(velocity).inflate(0.6D), this::canHit);
             if (hit != null) {
-                hit.getEntity().hurt(skillDamage(), 6.0F);
+                hit.getEntity().hurt(skillDamage(), skillDamageAmount(DragonCombatConfig.FEATHER.get()));
                 burst(hit.getLocation());
                 return;
             }
@@ -154,7 +159,7 @@ public class DragonSkillEntity extends Entity {
         setPos(getX(), getY() - CRYSTAL_FALL_SPEED, getZ());
         if (!level().isClientSide && getY() <= getGroundY()) {
             // 落地爆裂
-            damageArea(new Vec3(getX(), getGroundY(), getZ()), 3.0D, 10.0F);
+            damageArea(new Vec3(getX(), getGroundY(), getZ()), 3.0D, skillDamageAmount(DragonCombatConfig.CRYSTAL.get()));
             ModSounds.play(level(), "dragon_crystal_impact", getX(), getGroundY(), getZ(), 3.0F, 1.0F);
             level().broadcastEntityEvent(this, (byte) 1);
             discard();
@@ -175,7 +180,7 @@ public class DragonSkillEntity extends Entity {
         }
         if (this.tickCount == THUNDER_DELAY) {
             // 雷击落下
-            damageArea(position(), 2.5D, 12.0F);
+            damageArea(position(), 2.5D, skillDamageAmount(DragonCombatConfig.THUNDER.get()));
             level().playSound(null, getX(), getY(), getZ(), SoundEvents.LIGHTNING_BOLT_THUNDER, SoundSource.HOSTILE, 2.0F, 1.5F);
             level().playSound(null, getX(), getY(), getZ(), SoundEvents.LIGHTNING_BOLT_IMPACT, SoundSource.HOSTILE, 2.0F, 1.0F);
             level().broadcastEntityEvent(this, (byte) 2);
@@ -198,7 +203,7 @@ public class DragonSkillEntity extends Entity {
             // 晶棘突起：伤害并挑飞
             AABB box = new AABB(position(), position()).inflate(1.5D, 3.0D, 1.5D);
             for (LivingEntity living : level().getEntitiesOfClass(LivingEntity.class, box, this::canHit)) {
-                living.hurt(skillDamage(), 9.0F);
+                living.hurt(skillDamage(), skillDamageAmount(DragonCombatConfig.SPIKE.get()));
                 RebornMobEntity.applyBossKnockback(living, new Vec3(0.0D, 0.45D, 0.0D));
                 living.hurtMarked = true;
             }
@@ -313,6 +318,12 @@ public class DragonSkillEntity extends Entity {
 
     private boolean canHit(Entity entity) {
         return entity.isAlive() && entity.isPickable() && entity.getId() != this.ownerId && !(entity instanceof RebornMobEntity);
+    }
+
+    private float skillDamageAmount(double multiplier) {
+        Entity owner = level().getEntity(this.ownerId);
+        double attackDamage = owner instanceof LivingEntity living ? living.getAttributeValue(Attributes.ATTACK_DAMAGE) : this.launchAttackDamage;
+        return (float) (attackDamage * multiplier);
     }
 
     private DamageSource skillDamage() {

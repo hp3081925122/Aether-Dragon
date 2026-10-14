@@ -10,12 +10,15 @@ import com.aetherdragon.registry.ModSounds;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.config.ModConfig;
 
 @Mod(AetherDragon.MOD_ID)
 public final class AetherDragon {
     public static final String MOD_ID = "aether_dragon";
 
-    public AetherDragon(IEventBus bus) {
+    public AetherDragon(IEventBus bus, ModContainer container) {
+        container.registerConfig(ModConfig.Type.COMMON, DragonCombatConfig.SPEC, "aether_dragon-common.toml");
         ModArmorMaterials.ARMOR_MATERIALS.register(bus);
         ModBlocks.BLOCKS.register(bus);
         ModEntities.ENTITIES.register(bus);

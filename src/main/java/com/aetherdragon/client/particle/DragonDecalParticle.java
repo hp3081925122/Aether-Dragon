@@ -11,6 +11,7 @@ import net.minecraft.client.particle.TextureSheetParticle;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.util.Mth;
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
 
 // 水平爪痕刀光：xd 为半尺寸，yd 为朝向角度，zd 为 1 时左右镜像
 public class DragonDecalParticle extends TextureSheetParticle {
@@ -82,6 +83,11 @@ public class DragonDecalParticle extends TextureSheetParticle {
     @Override
     public ParticleRenderType getRenderType() {
         return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+    }
+
+    @Override
+    public AABB getRenderBoundingBox(float partialTicks) {
+        return AABB.INFINITE;
     }
 
     public static final class SlashProvider implements ParticleProvider<SimpleParticleType> {

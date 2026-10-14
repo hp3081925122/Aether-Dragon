@@ -11,6 +11,7 @@ import net.minecraft.client.particle.TextureSheetParticle;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.util.Mth;
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
 
 // 水平冲击波圆环，xd 为最大半径，yd 为持续 tick；预警模式下圆环向内收缩
 public class DragonShockwaveParticle extends TextureSheetParticle {
@@ -78,6 +79,11 @@ public class DragonShockwaveParticle extends TextureSheetParticle {
     @Override
     public ParticleRenderType getRenderType() {
         return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+    }
+
+    @Override
+    public AABB getRenderBoundingBox(float partialTicks) {
+        return AABB.INFINITE;
     }
 
     public static final class Provider implements ParticleProvider<SimpleParticleType> {
