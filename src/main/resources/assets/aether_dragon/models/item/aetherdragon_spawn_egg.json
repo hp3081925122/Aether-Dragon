@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "aether_dragon:entities/dragon"
-  }
+    "layer0": "aether_dragon:item/spawn_egg",
+    "layer1": "aether_dragon:item/spawn_egg_overlay"
+  },
+  "parent": "minecraft:item/generated"
 }

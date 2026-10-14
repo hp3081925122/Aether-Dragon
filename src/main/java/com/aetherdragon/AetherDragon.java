@@ -9,13 +9,16 @@ import com.aetherdragon.registry.ModSounds;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.loading.FMLEnvironment;
 
 @Mod(AetherDragon.MOD_ID)
 public final class AetherDragon {
     public static final String MOD_ID = "aether_dragon";
 
-    public AetherDragon(IEventBus bus) {
+    public AetherDragon(IEventBus bus, ModContainer container) {
+        container.registerConfig(ModConfig.Type.COMMON, DragonCombatConfig.SPEC, "aether_dragon-common.toml");
         ModBlocks.BLOCKS.register(bus);
         ModEntities.ENTITIES.register(bus);
         ModItems.ITEMS.register(bus);
@@ -25,6 +28,10 @@ public final class AetherDragon {
         bus.addListener(this::registerAttributes);
         if (FMLEnvironment.getDist().isClient()) {
             bus.addListener(com.aetherdragon.client.ClientEvents::registerRenderers);
+            bus.addListener(com.aetherdragon.client.ClientEvents::registerParticles);
+            bus.addListener(com.aetherdragon.client.ClientEvents::registerParticleGroups);
+            bus.addListener(com.aetherdragon.client.ClientEvents::registerLayerDefinitions);
+            bus.addListener(com.aetherdragon.client.ClientEvents::registerItemExtensions);
         }
     }
 

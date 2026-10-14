@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid_baby": [
+      {
+        "texture": "aether_dragon:shaday"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "aether_dragon:shaday"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "aether_dragon:shaday"
+      }
+    ]
+  }
+}

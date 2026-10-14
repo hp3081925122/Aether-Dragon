@@ -18,7 +18,7 @@ version = project.mod_version
 group = project.mod_group_id
 
 base {
-    archivesName = project.mod_id
+    archivesName = "${project.mod_id}-${project.minecraft_version}-neoforge"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
@@ -49,7 +49,8 @@ neoForge {
         }
 
         data {
-            data()
+            // 保留原任务名，使用支持客户端资源与服务端数据的生成类型。
+            clientData()
             programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
         }
     }

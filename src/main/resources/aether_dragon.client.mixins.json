@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aetherdragon.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "DragonAnimationQueryMixin",
+    "GeometryLocatorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

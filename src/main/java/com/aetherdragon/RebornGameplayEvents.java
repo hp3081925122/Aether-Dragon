@@ -33,6 +33,7 @@ import java.util.function.Consumer;
 
 @EventBusSubscriber(modid = AetherDragon.MOD_ID)
 public final class RebornGameplayEvents {
+    private static final org.slf4j.Logger MIGRATION_LOGGER = com.mojang.logging.LogUtils.getLogger();
     private static final Map<String, Consumer<RebornMobEntity>> JOIN_HANDLERS = Map.of();
     private static final Map<String, Consumer<RebornMobEntity>> DEATH_HANDLERS = Map.of(
             "aetherdragon", RebornGameplayEvents::handleDragonDeath
@@ -112,6 +113,10 @@ public final class RebornGameplayEvents {
         if (!entity.isDragonPhaseTwo() || !(entity.level() instanceof ServerLevel server)) {
             return;
         }
+        drop(server, entity, ModItems.ALL.get("shaday_helmet").get());
+        drop(server, entity, ModItems.ALL.get("shaday_chestplate").get());
+        drop(server, entity, ModItems.ALL.get("shaday_leggings").get());
+        MIGRATION_LOGGER.debug("Dropped Aether Dragon rewards: entity={}, items=shaday_helmet,shaday_chestplate,shaday_leggings", entity.getUUID());
         explode(server, entity, Level.ExplosionInteraction.NONE);
         playVictory(server, entity);
         sendParticles(server, ParticleTypes.EXPLOSION, entity, 7);

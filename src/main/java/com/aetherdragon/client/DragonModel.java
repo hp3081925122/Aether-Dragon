@@ -25,4 +25,5 @@ public final class DragonModel extends GeoModel<RebornMobEntity> {
     public Identifier getAnimationResource(RebornMobEntity entity) {
         return ANIMATION;
     }
+
 }
