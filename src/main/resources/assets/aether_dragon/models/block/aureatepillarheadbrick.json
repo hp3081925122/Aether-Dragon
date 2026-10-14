@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/aureate_pillar_top",
+    "up": "aether_dragon:block/aureate_pillar_top",
+    "north": "aether_dragon:block/aureate_pillar_head_brick",
+    "east": "aether_dragon:block/aureate_pillar_head_brick",
+    "south": "aether_dragon:block/aureate_pillar_head_brick",
+    "west": "aether_dragon:block/aureate_pillar_head_brick",
+    "particle": "aether_dragon:block/aureate_pillar_top"
+  },
+  "render_type": "solid"
+}

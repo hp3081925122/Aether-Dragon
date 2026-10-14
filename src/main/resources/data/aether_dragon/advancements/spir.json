@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "aether_dragon:textures/screens/aureate_bricks.png",
+    "icon": {
+      "item": "aether_dragon:spiritsword"
+    },
+    "title": {
+      "translate": "advancements.spir.title"
+    },
+    "description": {
+      "translate": "advancements.spir.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spir_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aether_dragon:spiritsword"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/blue_glazed_mosaic",
+    "up": "aether_dragon:block/blue_glazed_mosaic",
+    "north": "aether_dragon:block/blue_glazed_mosaic",
+    "east": "aether_dragon:block/blue_glazed_mosaic",
+    "south": "aether_dragon:block/blue_glazed_mosaic",
+    "west": "aether_dragon:block/blue_glazed_mosaic",
+    "particle": "aether_dragon:block/blue_glazed_mosaic"
+  },
+  "render_type": "solid"
+}

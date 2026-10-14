@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/mosaic_white",
+    "up": "aether_dragon:block/mosaic_white",
+    "north": "aether_dragon:block/mosaic_white",
+    "east": "aether_dragon:block/mosaic_white",
+    "south": "aether_dragon:block/mosaic_white",
+    "west": "aether_dragon:block/mosaic_white",
+    "particle": "aether_dragon:block/mosaic_white"
+  },
+  "render_type": "solid"
+}

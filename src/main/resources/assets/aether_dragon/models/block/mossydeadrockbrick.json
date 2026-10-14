@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/mossy_deadrock_brick",
+    "up": "aether_dragon:block/mossy_deadrock_brick",
+    "north": "aether_dragon:block/mossy_deadrock_brick",
+    "east": "aether_dragon:block/mossy_deadrock_brick",
+    "south": "aether_dragon:block/mossy_deadrock_brick",
+    "west": "aether_dragon:block/mossy_deadrock_brick",
+    "particle": "aether_dragon:block/mossy_deadrock_brick"
+  },
+  "render_type": "solid"
+}

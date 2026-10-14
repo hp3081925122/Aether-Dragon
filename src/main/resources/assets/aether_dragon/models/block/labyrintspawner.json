@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/sliderspawn",
+    "up": "aether_dragon:block/sliderspawn",
+    "north": "aether_dragon:block/sliderspawn",
+    "east": "aether_dragon:block/sliderspawn",
+    "south": "aether_dragon:block/sliderspawn",
+    "west": "aether_dragon:block/sliderspawn",
+    "particle": "aether_dragon:block/sliderspawn"
+  },
+  "render_type": "solid"
+}

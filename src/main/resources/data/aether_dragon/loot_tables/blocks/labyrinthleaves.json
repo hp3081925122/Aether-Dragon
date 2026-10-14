@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "aether_dragon:blocks/labyrinthleaves",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether_dragon:labyrinthleaves"
+        }
+      ]
+    }
+  ]
+}

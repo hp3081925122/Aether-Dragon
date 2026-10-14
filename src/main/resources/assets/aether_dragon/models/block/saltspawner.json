@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/saltspawner",
+    "up": "aether_dragon:block/saltspawner",
+    "north": "aether_dragon:block/saltspawner",
+    "east": "aether_dragon:block/saltspawner",
+    "south": "aether_dragon:block/saltspawner",
+    "west": "aether_dragon:block/saltspawner",
+    "particle": "aether_dragon:block/saltspawner"
+  },
+  "render_type": "solid"
+}

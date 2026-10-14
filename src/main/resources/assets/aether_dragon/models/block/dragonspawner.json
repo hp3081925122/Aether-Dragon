@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/aureate_beacon",
+    "up": "aether_dragon:block/aureate_beacon",
+    "north": "aether_dragon:block/aureate_beacon",
+    "east": "aether_dragon:block/aureate_beacon",
+    "south": "aether_dragon:block/aureate_beacon",
+    "west": "aether_dragon:block/aureate_beacon",
+    "particle": "aether_dragon:block/aureate_beacon"
+  },
+  "render_type": "solid"
+}

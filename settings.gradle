@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        // 使用 ForgeGradle 所需的官方插件仓库。
+        gradlePluginPortal()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://maven.minecraftforge.net/'
+        }
+    }
+}
+
+rootProject.name = 'aether_dragon'

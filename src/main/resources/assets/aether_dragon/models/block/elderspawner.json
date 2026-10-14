@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/eldrspawn",
+    "up": "aether_dragon:block/eldrspawn",
+    "north": "aether_dragon:block/eldrspawn",
+    "east": "aether_dragon:block/eldrspawn",
+    "south": "aether_dragon:block/eldrspawn",
+    "west": "aether_dragon:block/eldrspawn",
+    "particle": "aether_dragon:block/eldrspawn"
+  },
+  "render_type": "solid"
+}

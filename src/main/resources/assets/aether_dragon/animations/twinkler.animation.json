@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.twinkler.fly": {
+			"loop": true,
+			"animation_length": 0.45,
+			"bones": {
+				"part1": {
+					"rotation": ["-5+Math.cos((query.anim_time + 0.2) * 1.20 * 100) * 4", "Math.cos((query.anim_time + 0.1) * 1.00 * 200) * 1.5", "Math.cos((query.anim_time + 0.3) * 1.00 * 200) * 4"]
+				},
+				"wing_right": {
+					"rotation": [0, 0, "Math.cos((query.anim_time + 0.0) * 4.00 * 200) * 26 +Math.cos((query.anim_time + 0.0) * 4.00 * 35) * 4"]
+				},
+				"wing_left": {
+					"rotation": [0, 0, "Math.cos((query.anim_time + 0.0) * 4.00 * 200) * -26 +Math.cos((query.anim_time + 0.0) * 4.00 * 35) * -4"]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "trail",
+					"locator": "trail"
+				}
+			}
+		},
+		"animation.twinkler.idle": {
+			"loop": true,
+			"animation_length": 0.45,
+			"bones": {
+				"part1": {
+					"rotation": [-6, 0, "Math.cos((query.anim_time + 0.2) * 1.00 * 20) * 4"],
+					"position": [0, 0.4, 0]
+				},
+				"wing_right": {
+					"rotation": [0, 0, "32+Math.cos((query.anim_time + 0.1) * 1.00 * 70) * 8+Math.cos((query.anim_time + 0.2) * 1.00 * 20) * 2.5"]
+				},
+				"wing_left": {
+					"rotation": [0, 0, "-32+Math.cos((query.anim_time + 0.2) * 1.00 * 70) * -8+Math.cos((query.anim_time + 0.4) * 1.00 * 20) * -2.5"]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "trail",
+					"locator": "trail"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/deadrock_pillar_head",
+    "up": "aether_dragon:block/deadrock_pillar_head",
+    "north": "aether_dragon:block/deadrock_pillar_head",
+    "east": "aether_dragon:block/deadrock_pillar_head",
+    "south": "aether_dragon:block/deadrock_pillar_head",
+    "west": "aether_dragon:block/deadrock_pillar_head",
+    "particle": "aether_dragon:block/deadrock_pillar_head"
+  },
+  "render_type": "solid"
+}

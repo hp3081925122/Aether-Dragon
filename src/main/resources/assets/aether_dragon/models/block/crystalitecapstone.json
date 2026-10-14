@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/crystalite_keystone_lit",
+    "up": "aether_dragon:block/crystalite_keystone_lit",
+    "north": "aether_dragon:block/crystalite_capstone_lit",
+    "east": "aether_dragon:block/crystalite_capstone_lit",
+    "south": "aether_dragon:block/crystalite_capstone_lit",
+    "west": "aether_dragon:block/crystalite_capstone_lit",
+    "particle": "aether_dragon:block/crystalite_keystone_lit"
+  },
+  "render_type": "cutout_mipped"
+}

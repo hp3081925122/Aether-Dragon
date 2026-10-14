@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/etched_slidestone_pillar",
+    "up": "aether_dragon:block/etched_slidestone_pillar",
+    "north": "aether_dragon:block/etched_slidestone_pillar",
+    "east": "aether_dragon:block/etched_slidestone_pillar",
+    "south": "aether_dragon:block/etched_slidestone_pillar",
+    "west": "aether_dragon:block/etched_slidestone_pillar",
+    "particle": "aether_dragon:block/etched_slidestone_pillar"
+  },
+  "render_type": "solid"
+}

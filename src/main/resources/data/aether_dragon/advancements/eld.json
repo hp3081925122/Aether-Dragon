@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "aether_dragon:pyrespear"
+    },
+    "title": {
+      "translate": "advancements.eld.title"
+    },
+    "description": {
+      "translate": "advancements.eld.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eld_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aether_dragon:pyrespear"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "aether_dragon:aen"
+}

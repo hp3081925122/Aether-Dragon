@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/deep_dirt",
+    "up": "aether_dragon:block/deep_grass_top",
+    "north": "aether_dragon:block/deep_grass_side",
+    "east": "aether_dragon:block/deep_grass_side",
+    "south": "aether_dragon:block/deep_grass_side",
+    "west": "aether_dragon:block/deep_grass_side",
+    "particle": "aether_dragon:block/deep_dirt"
+  },
+  "render_type": "solid"
+}

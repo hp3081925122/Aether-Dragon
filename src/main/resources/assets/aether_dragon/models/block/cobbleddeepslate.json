@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/cobbled_deepslate",
+    "up": "aether_dragon:block/cobbled_deepslate",
+    "north": "aether_dragon:block/cobbled_deepslate",
+    "east": "aether_dragon:block/cobbled_deepslate",
+    "south": "aether_dragon:block/cobbled_deepslate",
+    "west": "aether_dragon:block/cobbled_deepslate",
+    "particle": "aether_dragon:block/cobbled_deepslate"
+  },
+  "render_type": "solid"
+}

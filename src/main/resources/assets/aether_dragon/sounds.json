@@ -1,0 +1,3517 @@
+{
+  "sword": {
+    "sounds": [
+      {
+        "name": "aether_dragon:flame_2",
+        "stream": false
+      }
+    ]
+  },
+  "victorymmm": {
+    "sounds": [
+      {
+        "name": "aether_dragon:aether_victory",
+        "stream": false
+      }
+    ]
+  },
+  "cgd": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgd",
+        "stream": false
+      }
+    ]
+  },
+  "cgh": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgh",
+        "stream": false
+      }
+    ]
+  },
+  "cgi": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgi",
+        "stream": false
+      }
+    ]
+  },
+  "cgmd": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgmd",
+        "stream": false
+      }
+    ]
+  },
+  "cgmh": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgmh",
+        "stream": false
+      }
+    ]
+  },
+  "cgmi": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgmi",
+        "stream": false
+      }
+    ]
+  },
+  "cgmw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgmw",
+        "stream": false
+      }
+    ]
+  },
+  "cgw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:cgw",
+        "stream": false
+      }
+    ]
+  },
+  "mud": {
+    "sounds": [
+      {
+        "name": "aether_dragon:mud",
+        "stream": false
+      }
+    ]
+  },
+  "muh": {
+    "sounds": [
+      {
+        "name": "aether_dragon:muh",
+        "stream": false
+      }
+    ]
+  },
+  "mui": {
+    "sounds": [
+      {
+        "name": "aether_dragon:mui",
+        "stream": false
+      }
+    ]
+  },
+  "nad": {
+    "sounds": [
+      {
+        "name": "aether_dragon:nad",
+        "stream": false
+      }
+    ]
+  },
+  "nah": {
+    "sounds": [
+      {
+        "name": "aether_dragon:nah",
+        "stream": false
+      }
+    ]
+  },
+  "naw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:naw",
+        "stream": false
+      }
+    ]
+  },
+  "sabw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:sabw",
+        "stream": false
+      }
+    ]
+  },
+  "sah": {
+    "sounds": [
+      {
+        "name": "aether_dragon:sah",
+        "stream": false
+      }
+    ]
+  },
+  "saw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:saw",
+        "stream": false
+      }
+    ]
+  },
+  "spd": {
+    "sounds": [
+      {
+        "name": "aether_dragon:spd",
+        "stream": false
+      }
+    ]
+  },
+  "sph": {
+    "sounds": [
+      {
+        "name": "aether_dragon:sph",
+        "stream": false
+      }
+    ]
+  },
+  "spi": {
+    "sounds": [
+      {
+        "name": "aether_dragon:spi",
+        "stream": false
+      }
+    ]
+  },
+  "spw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:spw",
+        "stream": false
+      }
+    ]
+  },
+  "shh": {
+    "sounds": [
+      {
+        "name": "aether_dragon:shh",
+        "stream": false
+      }
+    ]
+  },
+  "shi": {
+    "sounds": [
+      {
+        "name": "aether_dragon:shi",
+        "stream": false
+      }
+    ]
+  },
+  "shd": {
+    "sounds": [
+      {
+        "name": "aether_dragon:shd",
+        "stream": false
+      }
+    ]
+  },
+  "gad": {
+    "sounds": [
+      {
+        "name": "aether_dragon:gad",
+        "stream": false
+      }
+    ]
+  },
+  "gah": {
+    "sounds": [
+      {
+        "name": "aether_dragon:gah",
+        "stream": false
+      }
+    ]
+  },
+  "gai": {
+    "sounds": [
+      {
+        "name": "aether_dragon:gai",
+        "stream": false
+      }
+    ]
+  },
+  "gaw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:gaw",
+        "stream": false
+      }
+    ]
+  },
+  "drd": {
+    "sounds": [
+      {
+        "name": "aether_dragon:drd",
+        "stream": false
+      }
+    ]
+  },
+  "drf": {
+    "sounds": [
+      {
+        "name": "aether_dragon:drf",
+        "stream": false
+      }
+    ]
+  },
+  "drh": {
+    "sounds": [
+      {
+        "name": "aether_dragon:drh",
+        "stream": false
+      }
+    ]
+  },
+  "dri": {
+    "sounds": [
+      {
+        "name": "aether_dragon:dri",
+        "stream": false
+      }
+    ]
+  },
+  "drw": {
+    "sounds": [
+      {
+        "name": "aether_dragon:drw",
+        "stream": false
+      }
+    ]
+  },
+  "dragon_vocal_attack": {
+    "subtitle": "subtitles.aether_dragon.dragon_vocal_attack",
+    "sounds": [
+      {
+        "name": "aether_dragon:drf",
+        "pitch": 0.85,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:drf",
+        "pitch": 1.0,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:drf",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar1",
+        "pitch": 0.7,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar2",
+        "pitch": 0.7,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar3",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "dragon_roar": {
+    "subtitle": "subtitles.aether_dragon.dragon_roar",
+    "sounds": [
+      {
+        "name": "aether_dragon:drw",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:drw",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/growl1",
+        "pitch": 0.75,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:mob/enderdragon/growl2",
+        "pitch": 0.75,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:mob/enderdragon/growl3",
+        "pitch": 0.75,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:mob/enderdragon/growl4",
+        "pitch": 0.75,
+        "volume": 0.9
+      }
+    ]
+  },
+  "dragon_whoosh": {
+    "subtitle": "subtitles.aether_dragon.dragon_whoosh",
+    "sounds": [
+      {
+        "name": "minecraft:mob/enderdragon/wings1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings5",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings6",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_claw_hit": {
+    "subtitle": "subtitles.aether_dragon.dragon_claw_hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/strong1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong5",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong6",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite3",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_ground_slam": {
+    "subtitle": "subtitles.aether_dragon.dragon_ground_slam",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_quake_wave": {
+    "subtitle": "subtitles.aether_dragon.dragon_quake_wave",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact1",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact2",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact3",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact4",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:damage/fallbig",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_breath_charge": {
+    "subtitle": "subtitles.aether_dragon.dragon_breath_charge",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_charge1",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge2",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge3",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge4",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power3",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_breath_fire": {
+    "subtitle": "subtitles.aether_dragon.dragon_breath_fire",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_boom1",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom2",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom3",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom4",
+        "pitch": 1.4,
+        "volume": 0.8
+      }
+    ]
+  },
+  "dragon_breath_loop": {
+    "subtitle": "subtitles.aether_dragon.dragon_breath_loop",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/ambient",
+        "pitch": 1.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe4",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_crystal_summon": {
+    "subtitle": "subtitles.aether_dragon.dragon_crystal_summon",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/shimmer",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 1.2,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_crystal_fall": {
+    "subtitle": "subtitles.aether_dragon.dragon_crystal_fall",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/riptide1",
+        "pitch": 1.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/riptide2",
+        "pitch": 1.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/riptide3",
+        "pitch": 1.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "dragon_crystal_impact": {
+    "subtitle": "subtitles.aether_dragon.dragon_crystal_impact",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/break1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 1.3,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 1.3,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 1.3,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 1.3,
+        "volume": 0.6
+      }
+    ]
+  },
+  "dragon_spike_erupt": {
+    "subtitle": "subtitles.aether_dragon.dragon_spike_erupt",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/place1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/place2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/place3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/place4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/pierce1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/pierce2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/pierce3",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_thunder_mark": {
+    "subtitle": "subtitles.aether_dragon.dragon_thunder_mark",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/activate",
+        "pitch": 1.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 1.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 1.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 1.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_feather_launch": {
+    "subtitle": "subtitles.aether_dragon.dragon_feather_launch",
+    "sounds": [
+      {
+        "name": "minecraft:mob/phantom/flap1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap5",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap6",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/throw1",
+        "pitch": 1.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/throw2",
+        "pitch": 1.4,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_feather_hit": {
+    "subtitle": "subtitles.aether_dragon.dragon_feather_hit",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/pierce1",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/pierce2",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/pierce3",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break1",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/amethyst/break2",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/amethyst/break3",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/amethyst/break4",
+        "pitch": 1.4,
+        "volume": 0.7
+      }
+    ]
+  },
+  "dragon_gale_blast": {
+    "subtitle": "subtitles.aether_dragon.dragon_gale_blast",
+    "sounds": [
+      {
+        "name": "minecraft:mob/enderdragon/wings1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings6",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom1",
+        "pitch": 0.6,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom2",
+        "pitch": 0.6,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom3",
+        "pitch": 0.6,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom4",
+        "pitch": 0.6,
+        "volume": 0.5
+      }
+    ]
+  },
+  "dragon_heavy_step": {
+    "subtitle": "subtitles.aether_dragon.dragon_heavy_step",
+    "sounds": [
+      {
+        "name": "minecraft:mob/irongolem/walk1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/walk2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/walk3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/walk4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step5",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_charge_impact": {
+    "subtitle": "subtitles.aether_dragon.dragon_charge_impact",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/knockback1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/knockback2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/knockback3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/knockback4",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "dragon_tail_whip": {
+    "subtitle": "subtitles.aether_dragon.dragon_tail_whip",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/flap6",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_slash": {
+    "subtitle": "subtitles.aether_dragon.spirit_slash",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/throw1",
+        "pitch": 0.8,
+        "volume": 0.6
+      }
+    ]
+  },
+  "spirit_slash_hit": {
+    "subtitle": "subtitles.aether_dragon.spirit_slash_hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/strong1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong5",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong6",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/crit1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/crit2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/crit3",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_charge": {
+    "subtitle": "subtitles.aether_dragon.spirit_charge",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power3",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_impact": {
+    "subtitle": "subtitles.aether_dragon.spirit_impact",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.8,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.8,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.8,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.8,
+        "volume": 0.7
+      }
+    ]
+  },
+  "spirit_erupt": {
+    "subtitle": "subtitles.aether_dragon.spirit_erupt",
+    "sounds": [
+      {
+        "name": "minecraft:mob/blaze/hit1",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/blaze/hit2",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/blaze/hit3",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/blaze/hit4",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:fire/ignite",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/soul_sand/break1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/soul_sand/break2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/soul_sand/break3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/soul_sand/break4",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_rune_summon": {
+    "subtitle": "subtitles.aether_dragon.spirit_rune_summon",
+    "sounds": [
+      {
+        "name": "minecraft:mob/evocation_illager/cast1",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/evocation_illager/cast2",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/enchantment_table/enchant1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/enchantment_table/enchant2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/enchantment_table/enchant3",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_rune_launch": {
+    "subtitle": "subtitles.aether_dragon.spirit_rune_launch",
+    "sounds": [
+      {
+        "name": "minecraft:mob/vex/charge1",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/vex/charge2",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/vex/charge3",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/illusion_illager/mirror_move1",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/illusion_illager/mirror_move2",
+        "pitch": 1.4,
+        "volume": 0.8
+      }
+    ]
+  },
+  "spirit_rune_hit": {
+    "subtitle": "subtitles.aether_dragon.spirit_rune_hit",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/break1",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break2",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break3",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break4",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/glass1",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/glass2",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/glass3",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "spirit_dash": {
+    "subtitle": "subtitles.aether_dragon.spirit_dash",
+    "sounds": [
+      {
+        "name": "minecraft:mob/phantom/swoop1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/swoop2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/swoop3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/phantom/swoop4",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/riptide1",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/riptide2",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/riptide3",
+        "pitch": 1.2,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_sky_flash": {
+    "subtitle": "subtitles.aether_dragon.spirit_sky_flash",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/thunder1",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/thunder2",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/beacon/activate",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_sword_fall": {
+    "subtitle": "subtitles.aether_dragon.spirit_sword_fall",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/riptide1",
+        "pitch": 1.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/riptide2",
+        "pitch": 1.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/riptide3",
+        "pitch": 1.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "spirit_sword_impact": {
+    "subtitle": "subtitles.aether_dragon.spirit_sword_impact",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/ground_impact1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/ground_impact4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 1.0,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ]
+  },
+  "spirit_nova": {
+    "subtitle": "subtitles.aether_dragon.spirit_nova",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/deplete1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/deplete2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/wither/shoot",
+        "pitch": 0.6,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/blaze/breathe4",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "spirit_enrage": {
+    "subtitle": "subtitles.aether_dragon.spirit_enrage",
+    "sounds": [
+      {
+        "name": "aether_dragon:spw",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:spw",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar1",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar2",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar3",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar4",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_hiss": {
+    "subtitle": "subtitles.aether_dragon.naga_hiss",
+    "sounds": [
+      {
+        "name": "aether_dragon:naw",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:naw",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/stun1",
+        "pitch": 1.3,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:mob/ravager/stun2",
+        "pitch": 1.3,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:mob/ravager/stun3",
+        "pitch": 1.3,
+        "volume": 0.7
+      }
+    ]
+  },
+  "naga_bite": {
+    "subtitle": "subtitles.aether_dragon.naga_bite",
+    "sounds": [
+      {
+        "name": "minecraft:mob/ravager/bite1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/evocation_illager/fangs",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "naga_bite_hit": {
+    "subtitle": "subtitles.aether_dragon.naga_bite_hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/strong1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong5",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong6",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/zombie/wood1",
+        "pitch": 0.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/zombie/wood2",
+        "pitch": 0.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/zombie/wood3",
+        "pitch": 0.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/zombie/wood4",
+        "pitch": 0.8,
+        "volume": 0.6
+      }
+    ]
+  },
+  "naga_tail_sweep": {
+    "subtitle": "subtitles.aether_dragon.naga_tail_sweep",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings1",
+        "pitch": 0.55,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings2",
+        "pitch": 0.55,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings3",
+        "pitch": 0.55,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings4",
+        "pitch": 0.55,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings5",
+        "pitch": 0.55,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings6",
+        "pitch": 0.55,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_stone_slam": {
+    "subtitle": "subtitles.aether_dragon.naga_stone_slam",
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/break2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/break3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/break4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_burrow": {
+    "subtitle": "subtitles.aether_dragon.naga_burrow",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/dig",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:dig/gravel1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:dig/gravel2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:dig/gravel3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:dig/gravel4",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "naga_rumble": {
+    "subtitle": "subtitles.aether_dragon.naga_rumble",
+    "sounds": [
+      {
+        "name": "minecraft:dig/gravel1",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/gravel2",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/gravel3",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/gravel4",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/stone1",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/stone2",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/stone3",
+        "pitch": 0.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:dig/stone4",
+        "pitch": 0.4,
+        "volume": 0.7
+      }
+    ]
+  },
+  "naga_erupt": {
+    "subtitle": "subtitles.aether_dragon.naga_erupt",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/emerge",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.6,
+        "volume": 0.7
+      }
+    ]
+  },
+  "naga_beam_charge": {
+    "subtitle": "subtitles.aether_dragon.naga_beam_charge",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_charge1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge4",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "naga_beam_fire": {
+    "subtitle": "subtitles.aether_dragon.naga_beam_fire",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_boom1",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom2",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom3",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom4",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_beam_loop": {
+    "subtitle": "subtitles.aether_dragon.naga_beam_loop",
+    "sounds": [
+      {
+        "name": "minecraft:mob/guardian/attack_loop",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/beacon/ambient",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_pillar": {
+    "subtitle": "subtitles.aether_dragon.naga_pillar",
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/place1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/place2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/place3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/place4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:dig/stone1",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/stone2",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/stone3",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/stone4",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_boulder_throw": {
+    "subtitle": "subtitles.aether_dragon.naga_boulder_throw",
+    "sounds": [
+      {
+        "name": "minecraft:mob/enderdragon/wings1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/enderdragon/wings6",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.4,
+        "volume": 0.8
+      }
+    ]
+  },
+  "naga_boulder_impact": {
+    "subtitle": "subtitles.aether_dragon.naga_boulder_impact",
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/break2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/break3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/deepslate/break4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.9,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.9,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.9,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.9,
+        "volume": 0.7
+      }
+    ]
+  },
+  "naga_enrage": {
+    "subtitle": "subtitles.aether_dragon.naga_enrage",
+    "sounds": [
+      {
+        "name": "aether_dragon:nad",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:nad",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar4",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "golem_punch": {
+    "subtitle": "subtitles.aether_dragon.golem_punch",
+    "sounds": [
+      {
+        "name": "aether_dragon:cgmi",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:cgmi",
+        "pitch": 1.0,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.45,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.45,
+        "volume": 0.8
+      }
+    ]
+  },
+  "golem_punch_hit": {
+    "subtitle": "subtitles.aether_dragon.golem_punch_hit",
+    "sounds": [
+      {
+        "name": "minecraft:mob/irongolem/hit1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong6",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "golem_impact": {
+    "subtitle": "subtitles.aether_dragon.golem_impact",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "golem_spike": {
+    "subtitle": "subtitles.aether_dragon.golem_spike",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst_cluster/place1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/place2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/place3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/place4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break1",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/break2",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/break3",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/break4",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "golem_shatter": {
+    "subtitle": "subtitles.aether_dragon.golem_shatter",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst_cluster/break1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/break2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/break3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/break4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/glass1",
+        "pitch": 0.7,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:random/glass2",
+        "pitch": 0.7,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:random/glass3",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "golem_step": {
+    "subtitle": "subtitles.aether_dragon.golem_step",
+    "sounds": [
+      {
+        "name": "minecraft:mob/irongolem/walk1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/walk2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/walk3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/walk4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step5",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "golem_charge": {
+    "subtitle": "subtitles.aether_dragon.golem_charge",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power3",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "golem_cage": {
+    "subtitle": "subtitles.aether_dragon.golem_cage",
+    "sounds": [
+      {
+        "name": "minecraft:block/bell/resonate",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate2",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate3",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate4",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ]
+  },
+  "crab_snap": {
+    "subtitle": "subtitles.aether_dragon.crab_snap",
+    "sounds": [
+      {
+        "name": "minecraft:mob/ravager/bite1",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite2",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/bite3",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.7,
+        "volume": 0.7
+      }
+    ]
+  },
+  "crab_snap_hit": {
+    "subtitle": "subtitles.aether_dragon.crab_snap_hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/strong1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong5",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/player/attack/strong6",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit1",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit2",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit3",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit4",
+        "pitch": 0.9,
+        "volume": 0.6
+      }
+    ]
+  },
+  "crab_slam": {
+    "subtitle": "subtitles.aether_dragon.crab_slam",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/splash",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "crab_scuttle": {
+    "subtitle": "subtitles.aether_dragon.crab_scuttle",
+    "sounds": [
+      {
+        "name": "minecraft:mob/spider/step1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/spider/step2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/spider/step3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/spider/step4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/step1",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/step2",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/step3",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/step4",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/step5",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "crab_spit": {
+    "subtitle": "subtitles.aether_dragon.crab_spit",
+    "sounds": [
+      {
+        "name": "minecraft:block/bubble_column/bubble1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/bubble2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/bubble3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/bucket/empty1",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/bucket/empty2",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/bucket/empty3",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "crab_bubble_pop": {
+    "subtitle": "subtitles.aether_dragon.crab_bubble_pop",
+    "sounds": [
+      {
+        "name": "minecraft:block/bubble_column/bubble1",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/bubble2",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/bubble3",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/splash",
+        "pitch": 1.4,
+        "volume": 0.6
+      }
+    ]
+  },
+  "crab_geyser": {
+    "subtitle": "subtitles.aether_dragon.crab_geyser",
+    "sounds": [
+      {
+        "name": "minecraft:liquid/splash",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/splash2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/upwards_ambient1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/upwards_ambient2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/upwards_ambient3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/upwards_ambient4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/bubble_column/upwards_ambient5",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "crab_wave": {
+    "subtitle": "subtitles.aether_dragon.crab_wave",
+    "sounds": [
+      {
+        "name": "minecraft:liquid/swim1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim6",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim7",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim8",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim9",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim10",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim11",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim12",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim13",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim14",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim15",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim16",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim17",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/swim18",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:liquid/splash",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "crab_salt": {
+    "subtitle": "subtitles.aether_dragon.crab_salt",
+    "sounds": [
+      {
+        "name": "minecraft:block/calcite/place1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/calcite/place2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/calcite/place3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/calcite/place4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/place1",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/place2",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/place3",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/place4",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "crab_roar": {
+    "subtitle": "subtitles.aether_dragon.crab_roar",
+    "sounds": [
+      {
+        "name": "aether_dragon:saw",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:sabw",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/ravager/roar1",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar2",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar3",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/ravager/roar4",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "shulker_open": {
+    "subtitle": "subtitles.aether_dragon.shulker_open",
+    "sounds": [
+      {
+        "name": "minecraft:entity/shulker/open1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open5",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_close": {
+    "subtitle": "subtitles.aether_dragon.shulker_close",
+    "sounds": [
+      {
+        "name": "minecraft:entity/shulker/close1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/close2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/close3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/close4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/close5",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_fire": {
+    "subtitle": "subtitles.aether_dragon.shulker_fire",
+    "sounds": [
+      {
+        "name": "minecraft:entity/shulker/shoot1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/shoot2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/shoot3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/shoot4",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 1.4,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/beacon/power2",
+        "pitch": 1.4,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/beacon/power3",
+        "pitch": 1.4,
+        "volume": 0.6
+      }
+    ]
+  },
+  "shulker_orb_hit": {
+    "subtitle": "subtitles.aether_dragon.shulker_orb_hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity/shulker_bullet/hit1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker_bullet/hit2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker_bullet/hit3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker_bullet/hit4",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/amethyst/break1",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/amethyst/break2",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/amethyst/break3",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/amethyst/break4",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "shulker_beam_charge": {
+    "subtitle": "subtitles.aether_dragon.shulker_beam_charge",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_charge1",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge2",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge3",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_charge4",
+        "pitch": 1.1,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power2",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power3",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_beam_fire": {
+    "subtitle": "subtitles.aether_dragon.shulker_beam_fire",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_boom1",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom2",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom3",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom4",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ]
+  },
+  "shulker_beam_loop": {
+    "subtitle": "subtitles.aether_dragon.shulker_beam_loop",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/ambient",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/guardian/attack_loop",
+        "pitch": 1.2,
+        "volume": 0.7
+      }
+    ]
+  },
+  "shulker_vine": {
+    "subtitle": "subtitles.aether_dragon.shulker_vine",
+    "sounds": [
+      {
+        "name": "minecraft:block/vine/break1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/vine/break2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/vine/break3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/vine/break4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/roots/break1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/roots/break2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/roots/break3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/roots/break4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/roots/break5",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/roots/break6",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_vanish": {
+    "subtitle": "subtitles.aether_dragon.shulker_vanish",
+    "sounds": [
+      {
+        "name": "minecraft:mob/endermen/portal",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/endermen/portal2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/close1",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/shulker/close2",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/shulker/close3",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/shulker/close4",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity/shulker/close5",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "shulker_impact": {
+    "subtitle": "subtitles.aether_dragon.shulker_impact",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_pulse": {
+    "subtitle": "subtitles.aether_dragon.shulker_pulse",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/activate",
+        "pitch": 1.2,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 1.3,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_burst": {
+    "subtitle": "subtitles.aether_dragon.shulker_burst",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 1.1,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 1.1,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 1.1,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 1.1,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/shulker/open1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/open5",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "shulker_enrage": {
+    "subtitle": "subtitles.aether_dragon.shulker_enrage",
+    "sounds": [
+      {
+        "name": "aether_dragon:shi",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "aether_dragon:shh",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient6",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity/shulker/ambient7",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  }
+}

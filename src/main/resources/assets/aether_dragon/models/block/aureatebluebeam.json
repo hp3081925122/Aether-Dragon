@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/aureate_blue_pillar_bottom",
+    "up": "aether_dragon:block/aureate_blue_pillar_bottom",
+    "north": "aether_dragon:block/aureate_blue_beam",
+    "east": "aether_dragon:block/aureate_blue_beam",
+    "south": "aether_dragon:block/aureate_blue_beam",
+    "west": "aether_dragon:block/aureate_blue_beam",
+    "particle": "aether_dragon:block/aureate_blue_pillar_bottom"
+  },
+  "render_type": "solid"
+}

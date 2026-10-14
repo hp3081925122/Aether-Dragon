@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aether_dragon:block/crystalite_column_beam_lit",
+    "up": "aether_dragon:block/crystalite_column_beam_lit",
+    "north": "aether_dragon:block/crystalite_column_head_lit",
+    "east": "aether_dragon:block/crystalite_column_head_lit",
+    "south": "aether_dragon:block/crystalite_column_head_lit",
+    "west": "aether_dragon:block/crystalite_column_head_lit",
+    "particle": "aether_dragon:block/crystalite_column_beam_lit"
+  },
+  "render_type": "solid"
+}

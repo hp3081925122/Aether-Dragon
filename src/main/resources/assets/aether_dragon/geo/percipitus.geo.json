@@ -1,0 +1,74 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.percipitus",
+				"texture_width": 72,
+				"texture_height": 52,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, -8, 0]
+				},
+				{
+					"name": "tail1",
+					"parent": "root",
+					"pivot": [0, 15.5, 9],
+					"cubes": [
+						{"origin": [-3.5, 12.5, 9], "size": [7, 6, 7], "uv": [0, 29]}
+					],
+					"locators": {
+						"trail": [-2, 18, 0]
+					}
+				},
+				{
+					"name": "tail2",
+					"parent": "tail1",
+					"pivot": [0, 15.5, 16],
+					"cubes": [
+						{"origin": [-2, 13.5, 19], "size": [4, 4, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tail3",
+					"parent": "tail2",
+					"pivot": [0, 15.5, 23],
+					"cubes": [
+						{"origin": [-2, 13.5, 26], "size": [4, 4, 4], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 16, 7],
+					"cubes": [
+						{"origin": [-7.5, 10.5, -9], "size": [15, 11, 18], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "wingRight",
+					"parent": "body",
+					"pivot": [-7.5, 12.5, -3.5],
+					"rotation": [0, 0, 20],
+					"cubes": [
+						{"origin": [-7.5, 4.5, -7], "size": [0, 8, 20], "uv": [28, 9]}
+					]
+				},
+				{
+					"name": "wingLeft",
+					"parent": "body",
+					"pivot": [7.5, 12.5, -3.5],
+					"rotation": [0, 0, -20],
+					"cubes": [
+						{"origin": [7.5, 4.5, -7], "size": [0, 8, 20], "uv": [28, 9]}
+					]
+				}
+			]
+		}
+	]
+}
