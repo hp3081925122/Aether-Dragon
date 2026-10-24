@@ -33,6 +33,7 @@ public final class AetherDragon {
         for (var entry : ModEntities.MOBS.entrySet()) {
             event.put(entry.getValue().get(), com.aetherdragon.entity.RebornMobEntity.createAttributes(entry.getKey()).build());
         }
+        event.put(ModEntities.TAMED_DRAGON.get(), com.aetherdragon.entity.TamedAetherDragonEntity.createAttributes().build());
     }
 
 }

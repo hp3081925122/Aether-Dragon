@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aether_dragon:dragon_aether",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 150,
+    "separation": 65,
+    "salt": 173253031
+  }
+}

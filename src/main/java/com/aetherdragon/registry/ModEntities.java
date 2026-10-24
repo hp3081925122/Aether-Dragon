@@ -10,6 +10,7 @@ import com.aetherdragon.entity.NagaEntity;
 import com.aetherdragon.entity.RebornProjectileEntity;
 import com.aetherdragon.entity.ShulkerSkillEntity;
 import com.aetherdragon.entity.SpiritSkillEntity;
+import com.aetherdragon.entity.TamedAetherDragonEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.core.registries.Registries;
@@ -59,6 +60,11 @@ public final class ModEntities {
             .clientTrackingRange(8)
             .updateInterval(1)
             .build("shulker_skill"));
+    public static final DeferredHolder<EntityType<?>, EntityType<TamedAetherDragonEntity>> TAMED_DRAGON = ENTITIES.register("tamed_aetherdragon", () -> EntityType.Builder.<TamedAetherDragonEntity>of(TamedAetherDragonEntity::new, MobCategory.CREATURE)
+            .sized(5.0F, 4.0F)
+            .clientTrackingRange(16)
+            .updateInterval(1)
+            .build("tamed_aetherdragon"));
 
     static {
         registerMob("aetherdragon", MobCategory.MONSTER, 5.0F, 4.0F, 3);

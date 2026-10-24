@@ -10,6 +10,9 @@ import com.aetherdragon.client.particle.JawParticle;
 import com.aetherdragon.client.particle.PunchRingParticle;
 import com.aetherdragon.entity.RebornMobEntity;
 import com.aetherdragon.entity.RebornProjectileEntity;
+import com.aetherdragon.entity.TamedAetherDragonEntity;
+import software.bernie.geckolib.model.GeoModel;
+import net.neoforged.neoforge.client.event.RegisterGuiLayersEvent;
 import com.aetherdragon.registry.ModEntities;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.ArrowRenderer;
@@ -57,6 +60,7 @@ public final class RebornClientEvents {
                 event.registerEntityRenderer(entry.getValue().get(), RebornProjectileRenderer::new);
             }
         }
+        event.registerEntityRenderer(ModEntities.TAMED_DRAGON.get(), TamedDragonRenderer::new);
         // 艾瑟龙技能实体
         event.registerEntityRenderer(ModEntities.DRAGON_SKILL.get(), DragonSkillRenderer::new);
         // 灵魂技能实体
@@ -69,6 +73,11 @@ public final class RebornClientEvents {
         event.registerEntityRenderer(ModEntities.CRAB_SKILL.get(), CrabSkillRenderer::new);
         // 远古潜影贝技能实体
         event.registerEntityRenderer(ModEntities.SHULKER_SKILL.get(), ShulkerSkillRenderer::new);
+    }
+
+    @SubscribeEvent
+    public static void registerGuiLayers(RegisterGuiLayersEvent event) {
+        event.registerAboveAll(ResourceLocation.fromNamespaceAndPath(AetherDragon.MOD_ID, "dragon_mount_hint"), DragonMountClientEvents::renderHint);
     }
 
     @SubscribeEvent
@@ -171,29 +180,81 @@ public final class RebornClientEvents {
                 Vec3 direction = new Vec3(-Mth.sin(renderYaw), 0.0D, Mth.cos(renderYaw));
                 end = start.add(direction.scale(horizontalLength)).add(0.0D, delta.y, 0.0D);
             }
-            Vec3 dir = end.subtract(start);
-            double length = dir.length();
-            if (length < 0.5D) {
+            drawBeam(this.entityRenderDispatcher.camera.getPosition().subtract(ox, oy, oz), entity.tickCount + partialTick, poseStack, buffers, start, end, texture);
+        }
+    }
+
+    private static void drawBeam(Vec3 cam, float time, PoseStack poseStack, MultiBufferSource buffers, Vec3 start, Vec3 end, ResourceLocation texture) {
+        Vec3 dir = end.subtract(start);
+        double length = dir.length();
+        if (length < 0.5D) {
+            return;
+        }
+        // 面向相机展开光束宽度
+        Vec3 side = dir.cross(cam.subtract(start)).normalize();
+        float scroll = -time * 0.35F;
+        float pulse = 1.0F + Mth.sin(time * 0.9F) * 0.12F;
+        float vLength = (float) (length / 4.0D);
+        VertexConsumer consumer = buffers.getBuffer(RenderType.eyes(texture));
+        Matrix4f pose = poseStack.last().pose();
+        Matrix3f normal = poseStack.last().normal();
+        // 外层光晕与内层核心
+        for (float width : new float[]{2.4F * pulse, 1.0F * pulse}) {
+            Vec3 s = side.scale(width * 0.5F);
+            DragonSkillRenderer.vertex(consumer, pose, normal, (float) (start.x - s.x), (float) (start.y - s.y), (float) (start.z - s.z), 0.0F, scroll);
+            DragonSkillRenderer.vertex(consumer, pose, normal, (float) (start.x + s.x), (float) (start.y + s.y), (float) (start.z + s.z), 1.0F, scroll);
+            DragonSkillRenderer.vertex(consumer, pose, normal, (float) (end.x + s.x), (float) (end.y + s.y), (float) (end.z + s.z), 1.0F, scroll + vLength);
+            DragonSkillRenderer.vertex(consumer, pose, normal, (float) (end.x - s.x), (float) (end.y - s.y), (float) (end.z - s.z), 0.0F, scroll + vLength);
+        }
+    }
+
+    private static final class TamedDragonRenderer extends GeoEntityRenderer<TamedAetherDragonEntity> {
+        private static final ResourceLocation MOUNT_BEAM = ResourceLocation.fromNamespaceAndPath(AetherDragon.MOD_ID, "textures/entity/dragon_skill/dragon_beam.png");
+
+        private TamedDragonRenderer(EntityRendererProvider.Context context) {
+            super(context, new GeoModel<>() {
+                @Override
+                public ResourceLocation getModelResource(TamedAetherDragonEntity entity) {
+                    return ResourceLocation.fromNamespaceAndPath(AetherDragon.MOD_ID, "geo/aether_dragon.geo.json");
+                }
+
+                @Override
+                public ResourceLocation getTextureResource(TamedAetherDragonEntity entity) {
+                    return ResourceLocation.fromNamespaceAndPath(AetherDragon.MOD_ID, "textures/entities/dragon.png");
+                }
+
+                @Override
+                public ResourceLocation getAnimationResource(TamedAetherDragonEntity entity) {
+                    return ResourceLocation.fromNamespaceAndPath(AetherDragon.MOD_ID, "animations/aether_dragon.animation.json");
+                }
+            });
+            this.shadowRadius = 2.0F;
+        }
+
+        @Override
+        public void render(TamedAetherDragonEntity entity, float yaw, float partialTick, PoseStack poseStack, MultiBufferSource buffers, int light) {
+            boolean laser = entity.isLaserActive();
+            if (laser) {
+                getGeoModel().getBone("jaw").ifPresent(bone -> bone.setTrackingMatrices(true));
+            }
+            super.render(entity, yaw, partialTick, poseStack, buffers, light);
+            if (!laser) {
                 return;
             }
-            // 面向相机展开光束宽度
-            Vec3 cam = this.entityRenderDispatcher.camera.getPosition().subtract(ox, oy, oz);
-            Vec3 side = dir.cross(cam.subtract(start)).normalize();
-            float time = entity.tickCount + partialTick;
-            float scroll = -time * 0.35F;
-            float pulse = 1.0F + Mth.sin(time * 0.9F) * 0.12F;
-            float vLength = (float) (length / 4.0D);
-            VertexConsumer consumer = buffers.getBuffer(RenderType.eyes(texture));
-            Matrix4f pose = poseStack.last().pose();
-            Matrix3f normal = poseStack.last().normal();
-            // 外层光晕与内层核心
-            for (float width : new float[]{2.4F * pulse, 1.0F * pulse}) {
-                Vec3 s = side.scale(width * 0.5F);
-                DragonSkillRenderer.vertex(consumer, pose, normal, (float) (start.x - s.x), (float) (start.y - s.y), (float) (start.z - s.z), 0.0F, scroll);
-                DragonSkillRenderer.vertex(consumer, pose, normal, (float) (start.x + s.x), (float) (start.y + s.y), (float) (start.z + s.z), 1.0F, scroll);
-                DragonSkillRenderer.vertex(consumer, pose, normal, (float) (end.x + s.x), (float) (end.y + s.y), (float) (end.z + s.z), 1.0F, scroll + vLength);
-                DragonSkillRenderer.vertex(consumer, pose, normal, (float) (end.x - s.x), (float) (end.y - s.y), (float) (end.z - s.z), 0.0F, scroll + vLength);
-            }
+            getGeoModel().getBone("jaw").ifPresent(bone -> {
+                double ox = Mth.lerp(partialTick, entity.xo, entity.getX());
+                double oy = Mth.lerp(partialTick, entity.yo, entity.getY());
+                double oz = Mth.lerp(partialTick, entity.zo, entity.getZ());
+                Vector3d jaw = bone.getWorldPosition();
+                Vec3 start = new Vec3(jaw.x, jaw.y, jaw.z).subtract(ox, oy, oz);
+                Vec3 end = entity.getLaserEnd().subtract(ox, oy, oz);
+                drawBeam(this.entityRenderDispatcher.camera.getPosition().subtract(ox, oy, oz), entity.tickCount + partialTick, poseStack, buffers, start, end, MOUNT_BEAM);
+            });
+        }
+
+        @Override
+        public boolean shouldRender(TamedAetherDragonEntity entity, net.minecraft.client.renderer.culling.Frustum frustum, double x, double y, double z) {
+            return entity.isLaserActive() || super.shouldRender(entity, frustum, x, y, z);
         }
     }
 

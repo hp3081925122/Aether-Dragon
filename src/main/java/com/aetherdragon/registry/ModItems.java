@@ -26,6 +26,7 @@ public final class ModItems {
         register("shaday_helmet", () -> new ShadayArmorItem(net.minecraft.world.item.ArmorItem.Type.HELMET));
         register("shaday_chestplate", () -> new ShadayArmorItem(net.minecraft.world.item.ArmorItem.Type.CHESTPLATE));
         register("shaday_leggings", () -> new ShadayArmorItem(net.minecraft.world.item.ArmorItem.Type.LEGGINGS));
+        register("aether_dragon_flute", com.aetherdragon.item.AetherDragonFluteItem::new);
         String[] spawnEggs = {"aetherdragon"};
         for (String id : spawnEggs) {
             DeferredHolder<net.minecraft.world.entity.EntityType<?>, net.minecraft.world.entity.EntityType<RebornMobEntity>> entity = ModEntities.MOBS.get(id);
