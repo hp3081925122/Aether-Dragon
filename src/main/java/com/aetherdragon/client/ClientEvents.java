@@ -16,6 +16,10 @@ public final class ClientEvents {
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.MOBS.get("aetherdragon").get(), DragonRenderer::new);
         event.registerEntityRenderer(ModEntities.DRAGON_SKILL.get(), DragonSkillRenderer::new);
+        event.registerEntityRenderer(ModEntities.TAMED_DRAGON.get(), TamedDragonRenderer::new);
+    }
+    public static void registerGuiLayers(net.neoforged.neoforge.client.event.RegisterGuiLayersEvent event) {
+        event.registerAboveAll(net.minecraft.resources.Identifier.fromNamespaceAndPath(com.aetherdragon.AetherDragon.MOD_ID, "dragon_mount_hint"), DragonMountClientEvents::renderHint);
     }
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ShadayArmorModel.LAYER_LOCATION, () -> ShadayArmorModel.createBodyLayer(false));

@@ -315,5 +315,19 @@
   "subtitles.aether_dragon.shulker_pulse": "Levitation pulse",
   "subtitles.aether_dragon.shulker_burst": "Shell bursts",
   "subtitles.aether_dragon.shulker_enrage": "Elder Shulker rages",
-  "item_group.aether_dragon.aetherdragon": "Aether Dragon"
+  "item_group.aether_dragon.aetherdragon": "Aether Dragon",
+  "item.aether_dragon.aether_dragon_flute": "Aether Dragon Flute",
+  "entity.aether_dragon.tamed_aetherdragon": "Tamed Aether Dragon",
+  "tooltip.aether_dragon.flute.summoned": "The dragon has been summoned",
+  "tooltip.aether_dragon.flute.resting": "The dragon is resting inside the flute",
+  "tooltip.aether_dragon.flute.health": "Health: %s",
+  "tooltip.aether_dragon.flute.usage": "Right-click to summon the mount; right-click again to recall it",
+  "tooltip.aether_dragon.flute.controls": "Riding: W flies toward your view, Space ascends, Ctrl descends, hold Left Click to fire the laser, Shift dismounts",
+  "message.aether_dragon.flute.summoned": "The Aether Dragon answers your call",
+  "message.aether_dragon.flute.recalled": "The Aether Dragon returns to the flute",
+  "message.aether_dragon.flute.too_far": "The Aether Dragon is too far away to recall",
+  "message.aether_dragon.flute.no_space": "Not enough space to summon the Aether Dragon here",
+  "message.aether_dragon.flute.recovering": "The Aether Dragon is recovering, %s seconds left",
+  "message.aether_dragon.mount.died": "Your Aether Dragon has fallen; it can be summoned again in %s seconds",
+  "hud.aether_dragon.mount.hint": "%1$s Descend  %2$s Dismount  %3$s Ascend  Hold %4$s Laser"
 }

@@ -25,7 +25,7 @@ public final class DragonRenderer extends GeoEntityRenderer<RebornMobEntity, Dra
     private static final String[] DEBUG_BONES = {"dragon", "hip", "body", "body2", "wing_left_master", "wing_left",
             "wing_left2", "wingtip_left", "wing_right_master", "wing_right3", "wing_right4", "wingtip_right"};
     public DragonRenderer(EntityRendererProvider.Context context) {
-        super(context, new DragonModel());
+        super(context, new DragonModel<>());
         this.shadowRadius = 0.5F;
     }
 
@@ -37,16 +37,7 @@ public final class DragonRenderer extends GeoEntityRenderer<RebornMobEntity, Dra
     @Override
     public void extractRenderState(RebornMobEntity entity, DragonRenderState state, float partialTick) {
         super.extractRenderState(entity, state, partialTick);
-        if (state.hasGeckolibData(DataTickets.ANIMATION_CONTROLLER_STATES)) {
-            var movement = state.getGeckolibData(DataTickets.ANIMATABLE_MANAGER).getAnimationControllers().get("movement");
-            var sources = state.getGeckolibData(DataTickets.ANIMATION_CONTROLLER_STATES);
-            for (int index = 0; index < sources.length; index++) {
-                var source = sources[index];
-                if (movement != null && source.animationPoint() == movement.getCurrentAnimationPoint()) {
-                    sources[index] = DragonRenderState.alignMovementTransition(source, movement.getTransitionTicks());
-                }
-            }
-        }
+        alignMovementTransitions(state);
         state.beam = entity.isDragonBeamActive();
         state.beamEnd = entity.getDragonBeamEnd();
         boolean paused = Minecraft.getInstance().isPaused();
@@ -88,6 +79,25 @@ public final class DragonRenderer extends GeoEntityRenderer<RebornMobEntity, Dra
         if (state.debugSample) {
             logDragonPose(pass);
         }
+        submitJawBeam(pass, collector);
+        super.submitRenderTasks(pass, collector, type);
+    }
+
+    static void alignMovementTransitions(DragonRenderState state) {
+        if (state.hasGeckolibData(DataTickets.ANIMATION_CONTROLLER_STATES)) {
+            var movement = state.getGeckolibData(DataTickets.ANIMATABLE_MANAGER).getAnimationControllers().get("movement");
+            var sources = state.getGeckolibData(DataTickets.ANIMATION_CONTROLLER_STATES);
+            for (int index = 0; index < sources.length; index++) {
+                var source = sources[index];
+                if (movement != null && source.animationPoint() == movement.getCurrentAnimationPoint()) {
+                    sources[index] = DragonRenderState.alignMovementTransition(source, movement.getTransitionTicks());
+                }
+            }
+        }
+    }
+
+    static void submitJawBeam(RenderPassInfo<DragonRenderState> pass, net.minecraft.client.renderer.OrderedSubmitNodeCollector collector) {
+        DragonRenderState state = pass.renderState();
         if (state.beam) {
             net.minecraft.world.phys.Vec3[] start = {null};
             pass.model().getBone("jaw").ifPresent(bone -> pass.renderPosed(() -> {
@@ -104,7 +114,6 @@ public final class DragonRenderer extends GeoEntityRenderer<RebornMobEntity, Dra
                 submitBeam(state, start[0], pose, collector, pass.cameraState());
             }
         }
-        super.submitRenderTasks(pass, collector, type);
     }
 
     private static void logDragonPose(RenderPassInfo<DragonRenderState> pass) {

@@ -16,6 +16,10 @@
     {
       "id": "aether:skyroot_grove",
       "required": false
+    },
+    {
+      "id": "#aether_ii:the_aether",
+      "required": false
     }
   ]
 }

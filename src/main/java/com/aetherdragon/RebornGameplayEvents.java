@@ -116,7 +116,8 @@ public final class RebornGameplayEvents {
         drop(server, entity, ModItems.ALL.get("shaday_helmet").get());
         drop(server, entity, ModItems.ALL.get("shaday_chestplate").get());
         drop(server, entity, ModItems.ALL.get("shaday_leggings").get());
-        MIGRATION_LOGGER.debug("Dropped Aether Dragon rewards: entity={}, items=shaday_helmet,shaday_chestplate,shaday_leggings", entity.getUUID());
+        drop(server, entity, ModItems.ALL.get("aether_dragon_flute").get());
+        MIGRATION_LOGGER.debug("Dropped Aether Dragon rewards: entity={}, items=shaday_helmet,shaday_chestplate,shaday_leggings,aether_dragon_flute", entity.getUUID());
         explode(server, entity, Level.ExplosionInteraction.NONE);
         playVictory(server, entity);
         sendParticles(server, ParticleTypes.EXPLOSION, entity, 7);

@@ -796,7 +796,7 @@ public class RebornMobEntity extends PathfinderMob implements GeoEntity {
             getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(0.3D);
         }
         if (getAttribute(Attributes.KNOCKBACK_RESISTANCE) != null) {
-            getAttribute(Attributes.KNOCKBACK_RESISTANCE).setBaseValue(0.2D);
+            getAttribute(Attributes.KNOCKBACK_RESISTANCE).setBaseValue(2.5D);
         }
     }
     public int getDragonSkill() {
@@ -1195,7 +1195,12 @@ public class RebornMobEntity extends PathfinderMob implements GeoEntity {
 
         @Override
         public void tick() {
-            dragon.tickSkyCombat(dragon.getTarget());
+            LivingEntity target = dragon.getTarget();
+            if (target == null || !target.isAlive()) {
+                PERSISTENCE_LOGGER.log(System.Logger.Level.DEBUG, "Aether Dragon {0} skipped Sky combat tick because target was lost mid-goal", dragon.getUUID());
+                return;
+            }
+            dragon.tickSkyCombat(target);
         }
     }
     private void tickGroundCombat(LivingEntity target) {
@@ -1674,7 +1679,12 @@ public class RebornMobEntity extends PathfinderMob implements GeoEntity {
 
         @Override
         public void tick() {
-            dragon.tickGroundCombat(dragon.getTarget());
+            LivingEntity target = dragon.getTarget();
+            if (target == null || !target.isAlive()) {
+                PERSISTENCE_LOGGER.log(System.Logger.Level.DEBUG, "Aether Dragon {0} skipped Ground combat tick because target was lost mid-goal", dragon.getUUID());
+                return;
+            }
+            dragon.tickGroundCombat(target);
         }
     }
 

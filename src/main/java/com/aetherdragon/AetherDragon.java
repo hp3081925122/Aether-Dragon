@@ -26,12 +26,16 @@ public final class AetherDragon {
         ModParticles.PARTICLES.register(bus);
         ModSounds.SOUNDS.register(bus);
         bus.addListener(this::registerAttributes);
+        bus.addListener(com.aetherdragon.network.DragonMountNetwork::register);
         if (FMLEnvironment.getDist().isClient()) {
             bus.addListener(com.aetherdragon.client.ClientEvents::registerRenderers);
             bus.addListener(com.aetherdragon.client.ClientEvents::registerParticles);
             bus.addListener(com.aetherdragon.client.ClientEvents::registerParticleGroups);
             bus.addListener(com.aetherdragon.client.ClientEvents::registerLayerDefinitions);
             bus.addListener(com.aetherdragon.client.ClientEvents::registerItemExtensions);
+            bus.addListener(com.aetherdragon.client.ClientEvents::registerGuiLayers);
+            net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(com.aetherdragon.client.DragonMountClientEvents::onClientTick);
+            net.neoforged.neoforge.common.NeoForge.EVENT_BUS.addListener(com.aetherdragon.client.DragonMountClientEvents::onInteraction);
         }
     }
 
@@ -39,6 +43,7 @@ public final class AetherDragon {
         for (var entry : ModEntities.MOBS.entrySet()) {
             event.put(entry.getValue().get(), com.aetherdragon.entity.RebornMobEntity.createAttributes(entry.getKey()).build());
         }
+        event.put(ModEntities.TAMED_DRAGON.get(), com.aetherdragon.entity.TamedAetherDragonEntity.createAttributes().build());
     }
 
 }

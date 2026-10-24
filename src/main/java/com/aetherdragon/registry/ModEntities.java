@@ -3,6 +3,7 @@ package com.aetherdragon.registry;
 import com.aetherdragon.AetherDragon;
 import com.aetherdragon.entity.RebornMobEntity;
 import com.aetherdragon.entity.DragonSkillEntity;
+import com.aetherdragon.entity.TamedAetherDragonEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -15,6 +16,9 @@ public final class ModEntities {
     public static final Map<String, DeferredHolder<EntityType<?>, EntityType<RebornMobEntity>>> MOBS = new LinkedHashMap<>();
     public static final DeferredHolder<EntityType<?>, EntityType<DragonSkillEntity>> DRAGON_SKILL = ENTITIES.registerEntityType("dragon_skill", DragonSkillEntity::new, MobCategory.MISC,
             builder -> builder.sized(0.8F, 0.8F).clientTrackingRange(8).updateInterval(1));
+
+    public static final DeferredHolder<EntityType<?>, EntityType<TamedAetherDragonEntity>> TAMED_DRAGON = ENTITIES.registerEntityType("tamed_aetherdragon", TamedAetherDragonEntity::new, MobCategory.CREATURE,
+            builder -> builder.sized(5.0F, 4.0F).clientTrackingRange(16).updateInterval(1));
 
     static {
         MOBS.put("aetherdragon", ENTITIES.registerEntityType("aetherdragon", RebornMobEntity::new, MobCategory.MONSTER,

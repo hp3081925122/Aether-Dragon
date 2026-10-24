@@ -315,5 +315,19 @@
   "subtitles.aether_dragon.shulker_pulse": "浮空力场",
   "subtitles.aether_dragon.shulker_burst": "壳片爆裂",
   "subtitles.aether_dragon.shulker_enrage": "远古潜影贝：狂怒",
-  "item_group.aether_dragon.aetherdragon": "天境巨龙"
+  "item_group.aether_dragon.aetherdragon": "天境巨龙",
+  "item.aether_dragon.aether_dragon_flute": "天境龙笛",
+  "entity.aether_dragon.tamed_aetherdragon": "驯服的天境龙",
+  "tooltip.aether_dragon.flute.summoned": "天境龙已被召唤",
+  "tooltip.aether_dragon.flute.resting": "天境龙正在笛中休憩",
+  "tooltip.aether_dragon.flute.health": "生命值：%s",
+  "tooltip.aether_dragon.flute.usage": "右键召唤坐骑；坐骑在场时右键收回",
+  "tooltip.aether_dragon.flute.controls": "骑乘：W 朝视角方向飞行，空格上升，Ctrl 下降，长按左键发射激光，Shift 下龙",
+  "message.aether_dragon.flute.summoned": "天境龙回应了你的笛声",
+  "message.aether_dragon.flute.recalled": "天境龙回到了笛中",
+  "message.aether_dragon.flute.too_far": "天境龙距离太远，无法收回",
+  "message.aether_dragon.flute.no_space": "这里空间不足，无法召唤天境龙",
+  "message.aether_dragon.flute.recovering": "天境龙正在恢复，还需 %s 秒",
+  "message.aether_dragon.mount.died": "你的天境龙倒下了，%s 秒后才能再次召唤",
+  "hud.aether_dragon.mount.hint": "%1$s 下降  %2$s 脱离  %3$s 上升  长按%4$s 激光"
 }

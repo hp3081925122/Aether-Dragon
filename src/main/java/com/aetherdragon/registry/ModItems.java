@@ -1,6 +1,7 @@
 package com.aetherdragon.registry;
 
 import com.aetherdragon.AetherDragon;
+import com.aetherdragon.item.AetherDragonFluteItem;
 import com.aetherdragon.item.ShadayArmorItem;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.minecraft.core.registries.Registries;
@@ -25,6 +26,7 @@ public final class ModItems {
         ALL.put("shaday_helmet", ITEMS.register("shaday_helmet", () -> new ShadayArmorItem(ArmorType.HELMET, new Item.Properties().setId(itemKey("shaday_helmet")))));
         ALL.put("shaday_chestplate", ITEMS.register("shaday_chestplate", () -> new ShadayArmorItem(ArmorType.CHESTPLATE, new Item.Properties().setId(itemKey("shaday_chestplate")))));
         ALL.put("shaday_leggings", ITEMS.register("shaday_leggings", () -> new ShadayArmorItem(ArmorType.LEGGINGS, new Item.Properties().setId(itemKey("shaday_leggings")))));
+        ALL.put("aether_dragon_flute", ITEMS.register("aether_dragon_flute", () -> new AetherDragonFluteItem(new Item.Properties().setId(itemKey("aether_dragon_flute")))));
         ALL.put("aetherdragon_spawn_egg", ITEMS.register("aetherdragon_spawn_egg", () -> new SpawnEggItem(new Item.Properties().setId(itemKey("aetherdragon_spawn_egg")).spawnEgg(ModEntities.MOBS.get("aetherdragon").get()))));
     }
 
