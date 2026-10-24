@@ -114,6 +114,7 @@ public final class RebornGameplayEvents {
         drop(server, entity, ModItems.ALL.get("shaday_helmet").get());
         drop(server, entity, ModItems.ALL.get("shaday_chestplate").get());
         drop(server, entity, ModItems.ALL.get("shaday_leggings").get());
+        drop(server, entity, ModItems.ALL.get("aether_dragon_flute").get());
         explode(server, entity, Level.ExplosionInteraction.NONE);
         playVictory(server, entity);
         sendParticles(server, ParticleTypes.EXPLOSION, entity, 7);

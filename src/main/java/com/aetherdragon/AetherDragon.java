@@ -27,12 +27,14 @@ public final class AetherDragon {
         ModParticles.PARTICLES.register(bus);
         ModSounds.SOUNDS.register(bus);
         bus.addListener(this::registerAttributes);
+        com.aetherdragon.network.DragonMountNetwork.register();
     }
 
     private void registerAttributes(EntityAttributeCreationEvent event) {
         for (var entry : ModEntities.MOBS.entrySet()) {
             event.put(entry.getValue().get(), com.aetherdragon.entity.RebornMobEntity.createAttributes(entry.getKey()).build());
         }
+        event.put(ModEntities.TAMED_DRAGON.get(), com.aetherdragon.entity.TamedAetherDragonEntity.createAttributes().build());
     }
 }
 
